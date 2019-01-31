@@ -1,6 +1,6 @@
 #!/bin/bash
 
-flex example.l
+flex ThoNguyen.l
 g++ lex.yy.c -o lexer
-lexer < example.txt
+lexer < example.txt > ouput.txt
 lexer
